@@ -1,0 +1,14 @@
+/* media queries
+    Servir para definir  estilos en diferentes dispositivos
+    */
+    @import url(./about-me.css);
+    :root{
+        --fontBase:'Roboto', sans-serif;
+        --dark-blue: #310A90;
+
+    }
+    body{
+
+        font-family: var(--fontBase);
+        color: var(--dark-blue);
+    }

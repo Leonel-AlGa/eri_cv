@@ -1,0 +1,38 @@
+/*Desktop*/
+#about-me{
+    display: flex;
+    flex-direction: row;
+    background-color: aqua;
+
+}
+#btn-cv{
+    display: none;
+}
+
+h1{
+    color: var(--dark-blue);
+}
+
+/*  
+    Es menor<
+    600px //telefono celular
+    900px //tablet
+    1200px computadora
+
+*/
+@media screen and (max-width:600px) {
+    #about-me{
+        background-color: blueviolet;
+        flex-direction: column;
+    }
+    #nav-bar{
+        display: none;
+    }
+    #btn-cv{
+        display: block;
+    }
+}
+
+img{
+    height: 200px;
+}
